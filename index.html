@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Add a new task..." autocomplete="off">
+        <button id="addTaskButton">Add</button>
+        <ul id="taskList"></ul>
+
+        <div class="timer">
+            <h2>Work Timer</h2>
+            <p id="timerDisplay">25:00</p>
+            <button id="startTimerButton">Start Timer</button>
+            <button id="stopTimerButton" class="hidden">Stop Timer</button>
+            <button id="resetTimerButton" class="hidden">Reset Timer</button>
+            <p id="timerStatus"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
